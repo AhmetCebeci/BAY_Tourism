@@ -87,7 +87,7 @@
             YolcularimGoruntuleDgv.GridColor = Color.FromArgb(30, 39, 46);
             YolcularimGoruntuleDgv.Location = new Point(12, 79);
             YolcularimGoruntuleDgv.Name = "YolcularimGoruntuleDgv";
-            YolcularimGoruntuleDgv.Size = new Size(464, 410);
+            YolcularimGoruntuleDgv.Size = new Size(464, 439);
             YolcularimGoruntuleDgv.TabIndex = 35;
             // 
             // lblYolcularim
@@ -219,7 +219,7 @@
             // 
             YEkleKullaniciTcMTb.Font = new Font("Segoe UI", 18F);
             YEkleKullaniciTcMTb.ForeColor = Color.FromArgb(30, 39, 46);
-            YEkleKullaniciTcMTb.Location = new Point(663, 366);
+            YEkleKullaniciTcMTb.Location = new Point(673, 366);
             YEkleKullaniciTcMTb.Mask = "00000000000";
             YEkleKullaniciTcMTb.Name = "YEkleKullaniciTcMTb";
             YEkleKullaniciTcMTb.Size = new Size(199, 39);
