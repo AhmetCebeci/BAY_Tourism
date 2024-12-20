@@ -1,0 +1,82 @@
+Uygulamayı kullanan her bir kişinin id, ad, soyad, tc, telefon numarası, kullanici ve yolcu olma durumu bilgileri bulunur kişiler birbirinden id ile ayırt edilir.
+
+Yöneticiler admin girişi yapar.
+
+Adminde admin no, kullanıcı adı ve şifre bilgileri mevcuttur.
+
+Her bir kişi kullanici ve yolcu'dan en az biri olmak zorundadır. 
+
+Her bir kullanıcının id, email, şifre bilgileri mevcuttur.
+
+Kullanıcılar yorum yapabilir.
+
+Yorumun id, içerik ve kullanıcı bilgileri bulunmalıdır.
+
+Her bir yolcunun id ve kullanici bilgileri mevcuttur.
+
+Yolcuların bagajları olabilir.
+
+Bagajların bagaj id, parça sayısı ve yolcu bilgileri bulunmalıdır.
+
+Yolcular belirli seferlerde yolculuk yaparlar.
+
+Seferde sefer id, saat, tarih, ücret, varış terminali, kalkış terminali, firma ve otobüs bilgileri bulunur.
+
+Seferler terminaller arasında yapılır.
+
+Terminalin id, ad, şehir bilgileri mevcuttur.
+
+Terminaller şehirlerde bulunur.
+
+Şehrin şehir plaka ve ad bilgileri mevcuttur.
+
+Seferler firmalar aracılığıyla yapılır.
+
+Firmaların id ve firma adı bilgileri mevcuttur.
+
+Firmaların otobüsleri vardır.
+
+Otobüslerin id, plaka, marka, firma id bilgileri mevcuttur.
+
+Otobüslerde koltuklar bulunur.
+
+Koltukların koltuk no ve otobüs bilgileri mevcuttur.
+
+Yolcuların biletleri vardır.
+
+Bilette bilet id, kullanici, kesim tarihi, fatura, koltuk, sefer, yolcu bilgileri mevcuttur.
+
+Biletlerin ödemelerinde fatura vardır.
+
+Fatura da fatura id, son fiyat, toplam fiyat, tarih, kampanya kodu bilgileri mevcuttur.
+
+Faturalarda kampanya kullanılabilir.
+
+Kampanyada kampanya kodu ve indirim miktarı bilgileri mevcuttur.
+
+Bir yorum bir kullanıcı tarafından yapılır bir kullanıcı hiç yorum yapmayacağı gibi birden çok yorum da yapabilir.
+
+Bir bagaj bir yolcuya aittir bir yolcunun hiç bagajı olmayacağı gibi birden fazla bagajı da olabilir.
+
+Bir sefer bir terminalden yapılır, bir terminalde hiç sefer olmayacağı gibi birden fazla seferde olabilir.
+
+Bir şehirde hiç terminal olmayacağı gibi birden fazla terminal de olabilir , bir terminal yalnız bir şehirde bulunur.
+
+Bir sefer bir firma ile yapılır, bir firma hiç sefer yapmayacağı gibi birden çok sefer yapabilir.
+
+Bir sefer bir otobüs ile yapılır, bir otobüs en az bir sefere gider.
+
+Bir bilet bir sefere ait olabilir, bir seferde birden çok bilet bulunur.
+
+Bir firmanın en az bir otobüsü bulunur, bir otobüs bir firmaya aittir.
+
+Bir otobüste en az bir koltuk bulunur, bir koltuk sadece bir otobüste bulunur.
+
+Bir yolcu en az bir bilete sahiptir, bir bilet sadece bir yolcuya ait olabilir.
+
+Bir bilet bir faturada bulunur, bir faturada birden çok bilet bulunabilir.
+
+Bir faturada en çok bir kampanya kullanılabilir, bir kampanya bir faturada kullanılabilir.
+
+
+
