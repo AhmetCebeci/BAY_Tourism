@@ -14,6 +14,10 @@ Yorumun id, içerik ve kullanıcı bilgileri bulunmalıdır.
 
 Her bir yolcunun id ve kullanici bilgileri mevcuttur.
 
+Kaydolan her bir kullanıcı ve olşturulan yolcu sayısı kişi sayacında tutulur 
+
+Kişi sayacında id ve toplam kişi sayısı bilgileri bulunur
+
 Yolcuların bagajları olabilir.
 
 Bagajların bagaj id, parça sayısı ve yolcu bilgileri bulunmalıdır.
